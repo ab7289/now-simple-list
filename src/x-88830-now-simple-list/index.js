@@ -1,15 +1,13 @@
-import { createCustomElement } from '@servicenow/ui-core';
-import snabbdom from '@servicenow/ui-renderer-snabbdom';
-import styles from './styles.scss';
+import { createCustomElement } from "@servicenow/ui-core";
+import snabbdom from "@servicenow/ui-renderer-snabbdom";
+import styles from "./styles.scss";
 
 const view = (state, { updateState }) => {
-	return (
-		<div>Hello World!</div>
-	);
+	return <div>Hello World!</div>;
 };
 
-createCustomElement('x-88830-now-simple-list', {
+createCustomElement("x-88830-now-simple-list", {
 	renderer: { type: snabbdom },
 	view,
-	styles
+	styles,
 });

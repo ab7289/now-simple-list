@@ -1,15 +1,15 @@
 {
-	"components": {
-	    "x-88830-now-simple-list": {
-	        "innerComponents": [],
-			"uiBuilder": {
-				"associatedTypes": ["global.core", "global.landing-page"],
-				"label": "My Component",
-				"icon": "document-outline",
-				"description": "A description of my component",
-				"category": "primitives"
-			}
-	    }
-	},
-	"scopeName": "x_88830_now_simp_0"
+  "components": {
+    "x-88830-now-simple-list": {
+      "innerComponents": [],
+      "uiBuilder": {
+        "associatedTypes": ["global.core", "global.landing-page"],
+        "label": "My Component",
+        "icon": "document-outline",
+        "description": "A description of my component",
+        "category": "primitives"
+      }
+    }
+  },
+  "scopeName": "x_88830_now_simp_0"
 }
