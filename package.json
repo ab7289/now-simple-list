@@ -15,7 +15,7 @@
 	},
 	"module": "src/index.js",
 	"scripts": {
-		"format": "prettier . --fix"
+		"format": "prettier . --write"
 	},
 	"dependencies": {
 		"@servicenow/ui-core": "quebec",
