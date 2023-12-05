@@ -3,12 +3,35 @@
     "x-88830-now-simple-list": {
       "innerComponents": [],
       "uiBuilder": {
-        "associatedTypes": ["global.core", "global.landing-page"],
+        "associatedTypes": [
+          "global.core",
+          "global.landing-page"
+        ],
         "label": "My Component",
         "icon": "document-outline",
         "description": "A description of my component",
         "category": "primitives"
-      }
+      },
+      "properties": [
+        {
+          "name": "table",
+          "label": "Table",
+          "fieldType": "string",
+          "required": true,
+          "description": "The table that we will be listing data from"
+        },
+        {
+          "name": "fields",
+          "label": "Fields",
+          "fieldType": "json",
+          "typeMetadata": {
+            "schema": {
+              "type": "array",
+              "items": "string"
+            }
+          }
+        }
+      ]
     }
   },
   "scopeName": "x_88830_now_simp_0"
