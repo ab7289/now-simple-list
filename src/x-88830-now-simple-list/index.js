@@ -1,1 +1,1 @@
-import './now-simple-list';
+import "./now-simple-list";
