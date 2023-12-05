@@ -1,15 +1,23 @@
 {
   "development": {
     "proxy": {
-      "proxies": ["/api"]
+      "origin": "https://dev170274.service-now.com/",
+      "proxies": [
+        "/api"
+      ]
     }
   },
   "styles": {
     "themes": [
       {
         "module": "@servicenow/sass-theme",
-        "main": ["theme.scss"],
-        "copyFiles": ["type/*", "*.scss"]
+        "main": [
+          "theme.scss"
+        ],
+        "copyFiles": [
+          "type/*",
+          "*.scss"
+        ]
       }
     ]
   }
